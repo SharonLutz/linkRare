@@ -7,7 +7,7 @@ The linkRARE R package incorporates linkage data in genetic association studies 
 install.packages("devtools") #The devtools package must be installed first
 install.packages("SKAT") #The SKAT package must be installed first
 
-devtools::install_github("SharonLutz/software/linkRARE")
+devtools::install_github("SharonLutz/linkRARE")
 ```
 #### Example
 For the given dataset dataL, we can test if the collection of rare variants (i.e. x) are associetd with the binary outcome (i.e. y) given the NPL scores from the cases. The code below runs this analysis.
