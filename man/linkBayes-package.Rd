@@ -1,0 +1,10 @@
+\name{linkBayes-package}
+\alias{linkBayes-package}
+\alias{linkBayes-pkg}
+\docType{package}
+\title{
+\packageTitle{linkBayes}
+}
+\description{
+\packageDescription{linkBayes}
+}

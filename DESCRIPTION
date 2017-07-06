@@ -1,0 +1,9 @@
+Package: linkBayes
+Type: Package
+Title: This package runs the linkRARE function
+Version: 1.0
+Date: 2017-06-17
+Author: Sharon Lutz, Annie Thwing
+Maintainer: Annie Thwing <annie.thwing@ucdenver.edu>
+Description: linkRARE incorporates linkage data in genetic association studies with 2 approaches: 1) Bayesian Hierarchical model and 2) frequentist approach for rare variants.
+License: GPL-2
