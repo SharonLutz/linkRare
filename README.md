@@ -10,7 +10,7 @@ install.packages("SKAT") #The SKAT package must be installed first
 devtools::install_github("SharonLutz/linkBayes")
 ```
 #### Example
-For the given dataset dataL, we can test if the collection of rare variants (i.e. x) are associetd with the binary outcome (i.e. y) given the NPL scores from the cases. The code below runs this analysis.
+For the given dataset dataL, we can test if the collection of rare variants (i.e. x) are associated with the binary outcome (i.e. y) given the NPL scores from the cases. The code below runs this analysis.
 ```
 library(linkBayes)
 ?linkRARE # For details on this function and how to choose input variables
@@ -23,7 +23,7 @@ linkRARE(x,y,npl)
 ```
 
 #### Output
-For this analysis, we have the following output and can see that the region is not associated with the outcome Y (p-value=0.36). Although, this association becomes marginally signficant once we leverage the NPL scores from the cases (p-value=0.09).
+For this analysis, we have the following output and can see that the region is not associated with the outcome Y (p-value=0.36). Although, this association becomes marginally significant once we leverage the NPL scores from the cases (p-value=0.09).
 ```
 $`p-value from SKAT with all subjects`
 [1] 0.3589297
