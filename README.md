@@ -1,18 +1,18 @@
-## linkRARE
+## linkBayes
 
-The linkRARE R package incorporates linkage data in genetic association studies with 2 approaches: 1) Bayesian Hierarchical model and 2) frequentist approach for rare variants. 
+The linkBayes R package incorporates linkage data in genetic association studies with 2 approaches: 1) Bayesian Hierarchical model and 2) frequentist approach for rare variants. 
 
 #### Installation
 ```
 install.packages("devtools") #The devtools package must be installed first
 install.packages("SKAT") #The SKAT package must be installed first
 
-devtools::install_github("SharonLutz/linkRARE")
+devtools::install_github("SharonLutz/linkBayes")
 ```
 #### Example
 For the given dataset dataL, we can test if the collection of rare variants (i.e. x) are associetd with the binary outcome (i.e. y) given the NPL scores from the cases. The code below runs this analysis.
 ```
-library(linkRARE)
+library(linkBayes)
 ?linkRARE # For details on this function and how to choose input variables
 
 data("dataL")
