@@ -1,6 +1,6 @@
 ## linkBayes
 
-The linkBayes R package incorporates linkage data in genetic association studies with 2 approaches: 1) Bayesian Hierarchical model and 2) frequentist approach for rare variants. 
+The linkBayes R package incorporates linkage data in genetic association studies with 2 approaches: 1) Bayesian Hierarchical models and 2) frequentist approach for rare variants. 
 
 #### Installation
 ```
