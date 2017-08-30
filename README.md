@@ -41,3 +41,4 @@ $`number of rare variants excluding subjects with NPL<0`
 **Lutz SM**, et al.(2017) A Bayesian Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Association. (In Preparation)
 
 **Lutz SM**, et al. (2017) An Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Associations of Rare Variants. (In Preparation) 
+
