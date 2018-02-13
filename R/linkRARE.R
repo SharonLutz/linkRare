@@ -55,9 +55,13 @@ Xn<-dataP[,1:(ncol(dataP)-ncol(Z)-1)]
 if(length(Z)==0){obj1<-SKAT_Null_Model(y ~ 1, out_type="D")
 	}else{obj1<-SKAT_Null_Model(y ~ Z, out_type="D")}
 
-modelA<-SKAT(X, obj1,r.corr=seq(0,1,by=0.01))
+modelA<-SKAT(X, obj1)
 skatAp<-modelA$p.value
 skatAn<-modelA$param$n.marker.test
+	
+modelAo<-SKAT(X, obj1,method="SKATO")
+skatApo<-modelA$p.value
+skatAno<-modelA$param$n.marker.test
 
 #########################
 ## SKAT excluding subjects 
@@ -66,14 +70,19 @@ skatAn<-modelA$param$n.marker.test
 if(length(Z)==0){obj2<-SKAT_Null_Model(yN ~ 1, out_type="D")
 	}else{obj2<-SKAT_Null_Model(yN ~ zN, out_type="D")}
 
-modelP<-SKAT(Xn, obj2,r.corr=seq(0,1,by=0.01))
+modelP<-SKAT(Xn, obj2)
 skatPp<-modelP$p.value
 skatPn<-modelP$param$n.marker.test
 
+modelPo<-SKAT(Xn, obj2,method="SKATO")
+skatPpo<-modelP$p.value
+skatPno<-modelP$param$n.marker.test
 #########################
 ## output
 #########################
-output<-list(skatAp,skatAn,skatPp,skatPn)
-names(output)<-c("p-value from SKAT with all subjects","number of rare variants with all subjects","p-value from SKAT excluding subjects with NPL<0","number of rare variants excluding subjects with NPL<0")
+output<-list(skatAp,skatApo,skatAno,skatPp,skatPpo,skatPn)
+names(output)<-c("p-value from SKAT with all subjects","p-value from SKAT-O with all subjects",
+		 "number of rare variants with all subjects","p-value from SKAT excluding subjects with NPL<0",
+		 "p-value from SKAT-O excluding subjects with NPL<0","number of rare variants excluding subjects with NPL<0")
 
 output}
