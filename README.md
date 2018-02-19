@@ -25,17 +25,31 @@ linkRARE(x,y,npl)
 #### Output
 For this analysis, we have the following output and can see that the region is not associated with the outcome Y (p-value=0.36). Although, this association becomes marginally significant once we leverage the NPL scores from the cases (p-value=0.09).
 ```
+Sample size (non-missing y and X) = 1000, which is < 2000. The small sample adjustment is applied!
+Sample size (non-missing y and X) = 815, which is < 2000. The small sample adjustment is applied!
 $`p-value from SKAT with all subjects`
-[1] 0.3589297
+[1] 0.3126819
+
+$`p-value from SKAT-O with all subjects`
+[1] 0.358873
 
 $`number of rare variants with all subjects`
 [1] 32
 
 $`p-value from SKAT excluding subjects with NPL<0`
-[1] 0.09791944
+[1] 0.07547946
+
+$`p-value from SKAT-O excluding subjects with NPL<0`
+[1] 0.09895121
 
 $`number of rare variants excluding subjects with NPL<0`
 [1] 30
+
+Warning messages:
+1: 22 SNPs with either high missing rates or no-variation are excluded! 
+2: 22 SNPs with either high missing rates or no-variation are excluded! 
+3: 24 SNPs with either high missing rates or no-variation are excluded! 
+4: 24 SNPs with either high missing rates or no-variation are excluded! 
 ```
 #### Reference
 **Lutz SM**, et al.(2017) A Bayesian Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Association. (In Preparation)
