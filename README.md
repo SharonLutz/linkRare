@@ -52,7 +52,7 @@ Warning messages:
 4: 24 SNPs with either high missing rates or no-variation are excluded! 
 ```
 #### Reference
-**Lutz SM**, et al.(2017) A Bayesian Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Association. (In Preparation)
+**Lutz SM**, et al.(2018) A Bayesian Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Association. (In Preparation)
 
-**Lutz SM**, et al. (2017) An Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Associations of Rare Variants. (In Preparation) 
+**Lutz SM**, et al. (2018) An Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Associations of Rare Variants. (In Preparation) 
 
