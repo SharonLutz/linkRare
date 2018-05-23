@@ -1,4 +1,4 @@
-Package: linkBayes
+Package: linkRare
 Type: Package
 Title: This package runs the linkRARE function
 Version: 1.0

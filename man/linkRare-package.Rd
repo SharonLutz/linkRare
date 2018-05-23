@@ -1,0 +1,10 @@
+\name{linkRare-package}
+\alias{linkRare-package}
+\alias{linkRare-pkg}
+\docType{package}
+\title{
+\packageTitle{linkRare}
+}
+\description{
+\packageDescription{linkRare}
+}
