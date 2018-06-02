@@ -81,8 +81,5 @@ linkRARE <-
     ## output
     #########################
     output<-list(skatAp,skatApo,skatAn,skatPp,skatPpo,skatPn)
-    names(output)<-c("p-value from SKAT with all subjects","p-value from SKAT-O with all subjects",
-                     "number of rare variants with all subjects","p-value from SKAT excluding subjects with NPL<0",
-                     "p-value from SKAT-O excluding subjects with NPL<0","number of rare variants excluding subjects with NPL<0")
-    
+ 
     output}
