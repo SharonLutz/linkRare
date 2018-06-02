@@ -23,7 +23,7 @@ linkRARE(x,y,npl)
 ```
 
 ## Output
-For this analysis, we have the following output and can see that the region is not associated with the outcome Y (p-value=0.31). Although, this association becomes marginally significant once we leverage the NPL scores from the cases (p-value=0.08).
+For this analysis using SKAT, we have the abbreviated following output and can see that the region is not associated with the outcome Y (p-value=0.31). Although, this association becomes marginally significant once we leverage the NPL scores from the cases (p-value=0.08).
 ```
 Sample size (non-missing y and X) = 1000, which is < 2000. The small sample adjustment is applied!
 Sample size (non-missing y and X) = 815, which is < 2000. The small sample adjustment is applied!
