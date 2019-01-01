@@ -59,10 +59,6 @@ linkRARE <-
     skatAp<-modelA$p.value
     skatAn<-modelA$param$n.marker.test
     
-    modelAo<-SKAT(X, obj1,method="SKATO")
-    skatApo<-modelAo$p.value
-    skatAno<-modelAo$param$n.marker.test
-    
     #########################
     ## SKAT excluding subjects 
     ## with NPL score <0
@@ -74,15 +70,14 @@ linkRARE <-
     skatPp<-modelP$p.value
     skatPn<-modelP$param$n.marker.test
     
-    modelPo<-SKAT(Xn, obj2,method="SKATO")
-    skatPpo<-modelPo$p.value
-    skatPno<-modelPo$param$n.marker.test
     #########################
     ## output
     #########################
-    output<-list(skatAp,skatApo,skatAn,skatPp,skatPpo,skatPn)
+    output<-list(skatAp,skatAn,skatPp,skatPn)
  
-    names(output)<-c("p-value from SKAT with all subjects","p-value from SKAT-O with all subjects",
-                     "number of rare variants with all subjects","p-value from SKAT excluding subjects with NPL<0","p-value from SKAT-O excluding subjects with NPL<0","number of rare variants excluding subjects with NPL<0")
+    names(output)<-c("p-value from SKAT with all subjects",
+                     "number of rare variants with all subjects",
+                     "p-value from SKAT excluding subjects with NPL<0",
+                     "number of rare variants excluding subjects with NPL<0")
     
     output}
