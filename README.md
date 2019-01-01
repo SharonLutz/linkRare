@@ -1,6 +1,6 @@
 ## linkRare
 
-The linkRare R package incorporates linkage data in genetic association studies of rare and common variants. 
+The linkRare R package incorporates linkage data in genetic association studies of rare and uncommon variants. 
 
 ## Installation
 ```
