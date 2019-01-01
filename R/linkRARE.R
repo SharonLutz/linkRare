@@ -1,5 +1,5 @@
 linkRARE <-
-  function(x,y,npl,z=NULL,SEED=35){
+  function(x,y,npl,z=NULL,SEED=16){
     
     linkErrorCheck(x,y,npl,z)
     
