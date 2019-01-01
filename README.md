@@ -36,4 +36,4 @@ $`p-value from SKAT excluding subjects with NPL<0`
 ```
 
 ## Reference
-**Lutz SM**, et al. (2018) An Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Associations of Rare Variants. (In Preparation) 
+**Lutz SM**, Pelijto A, Thwing A, Fingerlin TE. (2018) A General Approach to Integrate Family-Specific Linkage Scores in Case-Control Tests of Associations of Rare and Uncommon Variants. (In Preparation) 
